@@ -23,7 +23,7 @@ function restar()
  num1 = parseInt (num1);
  num2 = parseInt (num2);
  resta = num1 - num2;
- alert ("elResultadoEs" +resta);   
+ alert ("elResultadoEs" + resta);   
 	
 }
 
@@ -31,11 +31,11 @@ function multiplicar()
 { var num1;
   var num2;
   var multiplicar;
-  num1 = document.getElementById("numeroUno");
-  num2 = document.getElementById("numeroDos");
+  num1 = document.getElementById("numeroUno").value;
+  num2 = document.getElementById("numeroDos").value;
   num1 = parseInt (num1);
   num2 = parseInt (num2);
-  multiplicar =num1 * num2;
+  multiplicar = num1 * num2;
   alert ("elResultadoEs" + multiplicar);
 
 	
@@ -46,11 +46,11 @@ function dividir()
 	var num1;
     var num2;
     var dividir;
-    num1 = document.getElementById("numeroUno");
-    num2 = document.getElementById("numeroDos");
+    num1 = document.getElementById("numeroUno").value;
+    num2 = document.getElementById("numeroDos").value;
     num1 = parseInt (num1);
     num2 = parseInt (num2);
-    dividir =num1 / num2;
+    dividir = num1 / num2;
     alert ("elResultadoEs" + dividir)
 }
 

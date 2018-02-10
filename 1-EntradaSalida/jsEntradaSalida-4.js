@@ -5,8 +5,8 @@
 function Mostar()
 {
 	var dato;
-	dato=prompt("elnombre");
-	getElementById("dato")valve=dato;
+	dato = prompt ("elNombre");
+	document.getElementById("elNombre").value = dato;
 	
 	
 }

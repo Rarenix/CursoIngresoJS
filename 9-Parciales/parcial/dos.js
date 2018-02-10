@@ -1,10 +1,9 @@
 function Mostrar()
 { var importe;
-  var importeFinal
-  importe = prompt("importe");
-  importeFinal = document.getElementById("importeFinal");
-  importe = parseInt(importe *1.21);
-  alert ("elImporteEs" + importe);
+  var importeFinal;
+  importe = prompt("Ingrese el importe: ");
+  importeFinal = parseInt(importe *1.21);
+  document.getElementById("importeFinal").value = importeFinal;
 
 
   
