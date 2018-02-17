@@ -1,18 +1,16 @@
 function Mostrar()
-{	var random;
-	var nota;
-	random = Math.floor((Math . random() * (max-min))+min
-	if (nota >= 9 ){}
-	alert("excelente");}
+{	var nota;
+	nota = Math.floor(Math . random() * (10-1))+1;
+	if (nota >= 9 ){
+	alert(nota + "excelente");}
 
-	else if (nota >= 7 )
-	alert("muy bien");
+	else if (nota >= 7 ){
+	alert(nota "muy bien");
 	}
-	else if (nota >= 4) 
-		alert("bien");
+	else if (nota >= 4){ 
+		alert(nota + "bien");
 	}
-	else if (nota >= 2 )
-		alert ("pésimo");
-	}
+	else{
+		alert (nota + "pésimo");}
 
 }//FIN DE LA FUNCIÓN
