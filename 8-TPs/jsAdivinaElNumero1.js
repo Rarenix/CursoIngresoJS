@@ -9,6 +9,10 @@ de no ser igual se debe informar si “falta…”  para llegar al número secre
 */
 var numeroSecreto; 
 var contadorIntentos;
+var numeroSecreto;
+numeroSecreto = document.getElementById("numero").value; 
+numeroSecreto = Mathfloor(Math.random()*(101-1))+1;
+console.log(num numeroSecreto);
 
 function comenzar()
 {
