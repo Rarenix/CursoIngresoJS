@@ -1,8 +1,9 @@
-function Mostrar()
-{
+function Mostrar(){
+    var repetciones = prompt ("ingrese el número de repeticiones");
+    for(var i = 0 ; i != repetciones  ; c++ ){
+    console.log(i);
 
-var repetciones = prompt("ingrese el número de repeticiones");
-
+}
 
 
 }//FIN DE LA FUNCIÓN
