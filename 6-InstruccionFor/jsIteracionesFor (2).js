@@ -1,6 +1,6 @@
 function Mostrar()
 {
-    for (var num = 10 ; num > 0 ; c-- ){
+    for (var num = 10 ; num > 0 ; num-- ){
     console.log(num);
     }
 }
