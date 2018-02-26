@@ -7,23 +7,30 @@ D.	Sueldo bruto, no menor a 8000.
 E.	Número de legajo, numérico de 4 cifras, sin ceros a la izquierda.
 F.	Nacionalidad, “A” para argentinos, “E” para extranjeros, “N” para nacionalizados.
  */
-function ComenzarIngreso () 
+function ComenzarIngreso() 
 {
- var edad; 
- var sexo;
- var ecivil;
- var sueldo;
- var legajo;
- var nación;
- edad = document.getElementById(Edad).value;
- sexo = document.getElementById("Sexo").value;
- ecivil = document.getElementById("EstadoCivil").value;
- sueldo = document.getElementById("Sueldo").value;
- legajo = document.getElementById("legajo").value;
- nación = document.getElementById("Nacionaliad").value;
- 
- if(edad <18 && edad >90 ){
-     alert ("edad no valida");
- }
-
+    var edad = document.getElementById("Edad").value;
+    var sexo = document.getElementById("Sexo").value;
+    var ecivil = document.getElementById("EstadoCivil").value;
+    var sueldo = document.getElementById("Suledo").value;
+    var legajo = document.getElementById("Legajo").value;
+    var nacionalizados = document.getElementById("Nacionalidad").value;
+    edad = prompt("ingrese Edad");
+    sexo = prompt("ingrese Sexo");
+    ecivil = prompt("ingrese EstadoCivil");
+    sueldo = prompt("ingrese sueldo");
+    legajo = prompt("ingrese Legajo");
+    nación = prompt("ingrese Nacionalidad");
+    edad = parseInt(edad = 0);
+        while (edad > 18  || edad < 90)
+        {
+            alert("usted tiene " + edad);
+            break;
+        }
+             if (sexo = "m")
+        {
+                alert("Usted es hombre");
+        }
+             else (edad = "f" )
+                 alert("usted es mujer");   
 }
