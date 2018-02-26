@@ -12,25 +12,25 @@ function ComenzarIngreso()
     var edad = document.getElementById("Edad").value;
     var sexo = document.getElementById("Sexo").value;
     var ecivil = document.getElementById("EstadoCivil").value;
-    var sueldo = document.getElementById("Suledo").value;
+    var sueldo = document.getElementById("Sueldo").value;
     var legajo = document.getElementById("Legajo").value;
-    var nacionalizados = document.getElementById("Nacionalidad").value;
-    edad = prompt("ingrese Edad");
-    sexo = prompt("ingrese Sexo");
-    ecivil = prompt("ingrese EstadoCivil");
-    sueldo = prompt("ingrese sueldo");
-    legajo = prompt("ingrese Legajo");
-    nación = prompt("ingrese Nacionalidad");
-    edad = parseInt(edad = 0);
-        while (edad > 18  || edad < 90)
-        {
-            alert("usted tiene " + edad);
+    var nacionalidad = document.getElementById("Nacionalidad").value;
+        while (edad <= 18  || edad >= 90 ||isNaN(edad))
+        {   edad= prompt("ingrese edad");
+            edad = document.getElementById("Edad").value=edad;
+        } 
+        sexo = prompt("ingrese sexo");
+        while(sexo = "m" && "f" )
+        {    
+            sexo = document.getElementById("Sexo").value = sexo;
             break;
-        }
-             if (sexo = "m")
-        {
-                alert("Usted es hombre");
-        }
-             else (edad = "f" )
-                 alert("usted es mujer");   
+            
+                switch(ecivil){
+                    case "1":document.getElementById("soltero")
+                    case "2":document.getElementById("casado")
+                    case "3":document.getElementById("divorsiado")
+                    case "4":document.getElementById("viudo")
+
+        } 
+    }
 }
