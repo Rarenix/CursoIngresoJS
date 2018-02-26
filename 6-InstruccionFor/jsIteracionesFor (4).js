@@ -6,6 +6,7 @@ function Mostrar()
     if (inf == 1000000)
     {
         console.log(inf);
+        break;
     }
 }
 

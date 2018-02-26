@@ -2,7 +2,7 @@ function Mostrar()
 {
     var contador = 0 ;
     var rep = prompt("ingrese numero");
-    for(var i = rep; i > 0 ; i++ )
+    for(var i = rep ; i > 0 ; i++ )
     {
         if(rep % i ==0)
         {

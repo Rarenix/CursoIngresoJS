@@ -13,10 +13,9 @@ function Mostrar()
     case "abril":
     alert ("Ya paso el frio ahora calor");
     break;
-    default
+    default:
     alert("falta para el invierno");
-
-
-
+    
+    }
 
 }//FIN DE LA FUNCIÓN
