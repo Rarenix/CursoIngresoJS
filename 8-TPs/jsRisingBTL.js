@@ -17,22 +17,32 @@ function ComenzarIngreso()
     var nacionalidad = document.getElementById("Nacionalidad").value;
         while (edad <= 18  || edad >= 90 ||isNaN(edad))
         {   edad= prompt("ingrese edad");
-            edad = document.getElementById("Edad").value=edad;
+            edad = document.getElementById("Edad").value = edad;
         } 
         sexo = prompt("ingrese sexo");
         while(sexo = "m" && "f" )
         {    
             sexo = document.getElementById("Sexo").value = sexo;
             break;
-            ecivil = prompt("ingrese estado civil").value=ecivil;
+            
                 switch(ecivil){
-                    case "1":document.getElementById("EstadoCivil").value = "soltero"
-                    case "2":document.getElementById("EstadoCivil").value ="casado"
-                    case "3":document.getElementById("EstadoCivil").value ="divorsiado"
-                    case "4":document.getElementById("EstadoCivil").value ="viudo"
-        }     
-    }           while (sueldo <8000 ){
+                    case "1":document.getElementById("EstadoCivil").value = "Soltero"
+                    case "2":document.getElementById("EstadoCivil").value ="Casado"
+                    case "3":document.getElementById("EstadoCivil").value ="Divorsiado"
+                    case "4":document.getElementById("EstadoCivil").value ="Viudo"
+                    ecivil = prompt("ingrese estado civil").value = ecivil;}
+    }           while (sueldo < 8000 ){
         sueldo = prompt("ingrese sueldo");
         sueldo = parseInt(sueldo);        
-    }   sueldo = document.getElementById("Sueldo").value=sueldo;
-}
+    }   sueldo = document.getElementById("Sueldo").value = sueldo;
+        legajos = prompt=("ingrese legajo");
+        while (legajos<1000){
+            prompt ("ingrese legajo");
+        } legajos = document.getElementById("Legajo").value=legajos;
+        if (nacionalidad == "n")
+{           if(sueldo > max){
+            max = sueldo;
+            console.log(max)
+        }
+    }
+}       
