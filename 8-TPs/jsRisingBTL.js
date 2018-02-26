@@ -24,13 +24,15 @@ function ComenzarIngreso()
         {    
             sexo = document.getElementById("Sexo").value = sexo;
             break;
-            
+            ecivil = prompt("ingrese estado civil").value=ecivil;
                 switch(ecivil){
-                    case "1":document.getElementById("soltero")
-                    case "2":document.getElementById("casado")
-                    case "3":document.getElementById("divorsiado")
-                    case "4":document.getElementById("viudo")
-
-        } 
-    }
+                    case "1":document.getElementById("EstadoCivil").value = "soltero"
+                    case "2":document.getElementById("EstadoCivil").value ="casado"
+                    case "3":document.getElementById("EstadoCivil").value ="divorsiado"
+                    case "4":document.getElementById("EstadoCivil").value ="viudo"
+        }     
+    }           while (sueldo <8000 ){
+        sueldo = prompt("ingrese sueldo");
+        sueldo = parseInt(sueldo);        
+    }   sueldo = document.getElementById("Sueldo").value=sueldo;
 }
