@@ -1,13 +1,22 @@
 //Debemos lograr mostrar un mensaje al presionar el botón  'MOSTRAR'.
 function Mostrar()
-{//alert("Funciona 4-if");
-var num
-var num2
+{
+var num;
+var num2;
+var resultado;
 num = prompt("ingrese primer numero ");
-num = prompt("ingrese segundo numero ");
-	if (num = num2){
-	mult = parseint(num * num2 );
-	mult = document.getElementById("document.write.").value= mult
-	console.log(mult)
+num2 = prompt("ingrese segundo numero ");
+num =parseInt(num);
+num2 =parseInt(num2);
+	if (num == num2){
+	resultado = num*num2;
+	document.write(resultado)
 	}
+else if (num > num2){
+	resultado = num-num2;
+	document.write(resultado)
+
+}else
+ resultado = num + num2 ;
+ document.write(resultado);
 }
