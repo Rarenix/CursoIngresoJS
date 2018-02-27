@@ -6,5 +6,18 @@ function Mostrar()
 	case "enero":
 	case "febrero":
 	alert("Veranito !!");
+	break;
+	case "marzo":
+	case "abril":
+	case "mayo":
+	case "junio":
+	case "julio":
+	case "agosto":
+	case "septiembre":
+	case "octubre":
+	case "noviembre":
+	case "diciembre":
+ 	alert("extraño enero y febrero !!!");
+	 break;
 	}
-}
+} 
