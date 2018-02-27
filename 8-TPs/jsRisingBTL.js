@@ -20,9 +20,10 @@ function ComenzarIngreso()
             edad = document.getElementById("Edad").value = edad;
         } 
         sexo = prompt("ingrese sexo");
-        while(sexo = "m" && "f" )
+        while(sexo != "m" || sexo != "f" )
         {    
             sexo = document.getElementById("Sexo").value = sexo;
+            sexo = prompt("ingrese sexo");
             break;
             
                 switch(ecivil){
@@ -38,7 +39,7 @@ function ComenzarIngreso()
         legajos = prompt=("ingrese legajo");
         while (legajos<1000){
             prompt ("ingrese legajo");
-        } legajos = document.getElementById("Legajo").value=legajos;
+        } legajo = document.getElementById("Legajo").value=legajo;
         if (nacionalidad == "n")
 {           if(sueldo > max){
             max = sueldo;

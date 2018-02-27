@@ -2,8 +2,8 @@
 function Mostrar()
 {   var importe;
 	var  importFinal;
-	importe = prompt("importe");
-	importeFinal = parseInt(importe * 1.21);
+	importe = prompt("ingrese importe");
+	importeFinal = parseFloat(importe * 1.21);
 	document.getElementById("importe").value = importeFinal;
 	
 }
